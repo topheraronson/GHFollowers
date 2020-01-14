@@ -15,6 +15,7 @@
 		B7EDC9F823CD516E0075EC19 /* FavoritesListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EDC9F723CD516E0075EC19 /* FavoritesListVC.swift */; };
 		B7EDC9FA23CD5E0F0075EC19 /* TAButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EDC9F923CD5E0F0075EC19 /* TAButton.swift */; };
 		B7EDC9FC23CD619F0075EC19 /* TATextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EDC9FB23CD619F0075EC19 /* TATextField.swift */; };
+		B7EDC9FE23CD7FED0075EC19 /* FollowerListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EDC9FD23CD7FED0075EC19 /* FollowerListVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		B7EDC9F723CD516E0075EC19 /* FavoritesListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesListVC.swift; sourceTree = "<group>"; };
 		B7EDC9F923CD5E0F0075EC19 /* TAButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TAButton.swift; sourceTree = "<group>"; };
 		B7EDC9FB23CD619F0075EC19 /* TATextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TATextField.swift; sourceTree = "<group>"; };
+		B7EDC9FD23CD7FED0075EC19 /* FollowerListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerListVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				B7EDC9F723CD516E0075EC19 /* FavoritesListVC.swift */,
 				B7EDC9F923CD5E0F0075EC19 /* TAButton.swift */,
 				B7EDC9FB23CD619F0075EC19 /* TATextField.swift */,
+				B7EDC9FD23CD7FED0075EC19 /* FollowerListVC.swift */,
 			);
 			path = GHFollowers;
 			sourceTree = "<group>";
@@ -147,6 +150,7 @@
 				B7EDC9F623CD512B0075EC19 /* SearchVC.swift in Sources */,
 				B7EDC9FC23CD619F0075EC19 /* TATextField.swift in Sources */,
 				B7EDC9E223CD465F0075EC19 /* AppDelegate.swift in Sources */,
+				B7EDC9FE23CD7FED0075EC19 /* FollowerListVC.swift in Sources */,
 				B7EDC9E423CD465F0075EC19 /* SceneDelegate.swift in Sources */,
 				B7EDC9FA23CD5E0F0075EC19 /* TAButton.swift in Sources */,
 			);

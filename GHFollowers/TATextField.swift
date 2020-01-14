@@ -39,6 +39,9 @@ class TATextField: UITextField {
         backgroundColor = .tertiarySystemBackground
         autocorrectionType = .no
         placeholder = "Enter a Username"
+        
+        keyboardType = .default
+        returnKeyType = .go
     }
     
 }
