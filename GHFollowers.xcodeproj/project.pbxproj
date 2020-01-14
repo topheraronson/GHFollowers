@@ -13,6 +13,7 @@
 		B7EDC9EE23CD46620075EC19 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7EDC9EC23CD46620075EC19 /* LaunchScreen.storyboard */; };
 		B7EDC9F623CD512B0075EC19 /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EDC9F523CD512B0075EC19 /* SearchVC.swift */; };
 		B7EDC9F823CD516E0075EC19 /* FavoritesListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EDC9F723CD516E0075EC19 /* FavoritesListVC.swift */; };
+		B7EDC9FA23CD5E0F0075EC19 /* TAButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EDC9F923CD5E0F0075EC19 /* TAButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		B7EDC9EF23CD46620075EC19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B7EDC9F523CD512B0075EC19 /* SearchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchVC.swift; sourceTree = "<group>"; };
 		B7EDC9F723CD516E0075EC19 /* FavoritesListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesListVC.swift; sourceTree = "<group>"; };
+		B7EDC9F923CD5E0F0075EC19 /* TAButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TAButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				B7EDC9EC23CD46620075EC19 /* LaunchScreen.storyboard */,
 				B7EDC9EF23CD46620075EC19 /* Info.plist */,
 				B7EDC9F723CD516E0075EC19 /* FavoritesListVC.swift */,
+				B7EDC9F923CD5E0F0075EC19 /* TAButton.swift */,
 			);
 			path = GHFollowers;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 				B7EDC9F623CD512B0075EC19 /* SearchVC.swift in Sources */,
 				B7EDC9E223CD465F0075EC19 /* AppDelegate.swift in Sources */,
 				B7EDC9E423CD465F0075EC19 /* SceneDelegate.swift in Sources */,
+				B7EDC9FA23CD5E0F0075EC19 /* TAButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,6 +283,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 66AJPZAPLQ;
 				INFOPLIST_FILE = GHFollowers/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -297,6 +302,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 66AJPZAPLQ;
 				INFOPLIST_FILE = GHFollowers/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
