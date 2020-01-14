@@ -14,6 +14,8 @@ class SearchVC: UIViewController {
     let searchUsernameTextField = TATextField()
     let searchButton = TAButton(backgroundColor: .systemGreen, title: "Get Followers")
     
+    var isUsernameEntered: Bool { return !(searchUsernameTextField.text?.isEmpty ?? false) }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -62,6 +64,7 @@ class SearchVC: UIViewController {
     private func configureSearchButton() {
         
         view.addSubview(searchButton)
+        searchButton.addTarget(self, action: #selector(pushFollowerListVC), for: .touchUpInside)
         
         NSLayoutConstraint.activate([
             searchButton.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor, constant: -50),
@@ -76,13 +79,28 @@ class SearchVC: UIViewController {
         let tap = UITapGestureRecognizer(target: self.view, action: #selector(UIView.endEditing))
         view.addGestureRecognizer(tap)
     }
+    
+    @objc private func pushFollowerListVC() {
+     
+        guard isUsernameEntered else {
+            
+            print("No username")
+            return
+        }
+        
+        let followerVC = FollowerListVC()
+        followerVC.username = searchUsernameTextField.text
+        followerVC.title = searchUsernameTextField.text
+        
+        navigationController?.pushViewController(followerVC, animated: true)
+    }
 }
 
 extension SearchVC: UITextFieldDelegate {
     
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         
-        print("hello")
+        pushFollowerListVC()
         return true
     }
 }
