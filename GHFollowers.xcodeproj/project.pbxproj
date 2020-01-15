@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B7534B4023CE996300F841C9 /* TATitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7534B3F23CE996300F841C9 /* TATitleLabel.swift */; };
+		B7534B4223CEA08000F841C9 /* TABodyLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7534B4123CEA08000F841C9 /* TABodyLabel.swift */; };
 		B7EDC9E223CD465F0075EC19 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EDC9E123CD465F0075EC19 /* AppDelegate.swift */; };
 		B7EDC9E423CD465F0075EC19 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EDC9E323CD465F0075EC19 /* SceneDelegate.swift */; };
 		B7EDC9EB23CD46620075EC19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7EDC9EA23CD46620075EC19 /* Assets.xcassets */; };
@@ -21,6 +22,7 @@
 
 /* Begin PBXFileReference section */
 		B7534B3F23CE996300F841C9 /* TATitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TATitleLabel.swift; sourceTree = "<group>"; };
+		B7534B4123CEA08000F841C9 /* TABodyLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TABodyLabel.swift; sourceTree = "<group>"; };
 		B7EDC9DE23CD465F0075EC19 /* GHFollowers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GHFollowers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7EDC9E123CD465F0075EC19 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B7EDC9E323CD465F0075EC19 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -75,6 +77,7 @@
 				B7EDC9FB23CD619F0075EC19 /* TATextField.swift */,
 				B7EDC9FD23CD7FED0075EC19 /* FollowerListVC.swift */,
 				B7534B3F23CE996300F841C9 /* TATitleLabel.swift */,
+				B7534B4123CEA08000F841C9 /* TABodyLabel.swift */,
 			);
 			path = GHFollowers;
 			sourceTree = "<group>";
@@ -152,6 +155,7 @@
 				B7EDC9F823CD516E0075EC19 /* FavoritesListVC.swift in Sources */,
 				B7EDC9F623CD512B0075EC19 /* SearchVC.swift in Sources */,
 				B7EDC9FC23CD619F0075EC19 /* TATextField.swift in Sources */,
+				B7534B4223CEA08000F841C9 /* TABodyLabel.swift in Sources */,
 				B7EDC9E223CD465F0075EC19 /* AppDelegate.swift in Sources */,
 				B7534B4023CE996300F841C9 /* TATitleLabel.swift in Sources */,
 				B7EDC9FE23CD7FED0075EC19 /* FollowerListVC.swift in Sources */,
