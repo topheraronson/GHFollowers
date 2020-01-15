@@ -11,6 +11,7 @@
 		B7534B4223CEA08000F841C9 /* TABodyLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7534B4123CEA08000F841C9 /* TABodyLabel.swift */; };
 		B7534B4423CEA38A00F841C9 /* TAAlertVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7534B4323CEA38A00F841C9 /* TAAlertVC.swift */; };
 		B7534B4623CEABB800F841C9 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7534B4523CEABB800F841C9 /* UIViewController+Extension.swift */; };
+		B75F1E9D23CEB4BE00F37089 /* Follower.swift in Sources */ = {isa = PBXBuildFile; fileRef = B75F1E9C23CEB4BE00F37089 /* Follower.swift */; };
 		B7EDC9E223CD465F0075EC19 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EDC9E123CD465F0075EC19 /* AppDelegate.swift */; };
 		B7EDC9E423CD465F0075EC19 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EDC9E323CD465F0075EC19 /* SceneDelegate.swift */; };
 		B7EDC9EB23CD46620075EC19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7EDC9EA23CD46620075EC19 /* Assets.xcassets */; };
@@ -27,6 +28,7 @@
 		B7534B4123CEA08000F841C9 /* TABodyLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TABodyLabel.swift; sourceTree = "<group>"; };
 		B7534B4323CEA38A00F841C9 /* TAAlertVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TAAlertVC.swift; sourceTree = "<group>"; };
 		B7534B4523CEABB800F841C9 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		B75F1E9C23CEB4BE00F37089 /* Follower.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Follower.swift; sourceTree = "<group>"; };
 		B7EDC9DE23CD465F0075EC19 /* GHFollowers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GHFollowers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7EDC9E123CD465F0075EC19 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B7EDC9E323CD465F0075EC19 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -93,6 +95,14 @@
 			path = Support;
 			sourceTree = "<group>";
 		};
+		B75F1E9B23CEB4B200F37089 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B75F1E9C23CEB4BE00F37089 /* Follower.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		B7EDC9D523CD465F0075EC19 = {
 			isa = PBXGroup;
 			children = (
@@ -112,10 +122,11 @@
 		B7EDC9E023CD465F0075EC19 /* GHFollowers */ = {
 			isa = PBXGroup;
 			children = (
-				B7534B4B23CEB18500F841C9 /* Support */,
+				B75F1E9B23CEB4B200F37089 /* Model */,
 				B7534B4A23CEB12900F841C9 /* Extensions */,
 				B7534B4923CEB0F600F841C9 /* Views */,
 				B7534B4823CEB0B300F841C9 /* View Controllers */,
+				B7534B4B23CEB18500F841C9 /* Support */,
 			);
 			path = GHFollowers;
 			sourceTree = "<group>";
@@ -197,6 +208,7 @@
 				B7534B4223CEA08000F841C9 /* TABodyLabel.swift in Sources */,
 				B7EDC9E223CD465F0075EC19 /* AppDelegate.swift in Sources */,
 				B7534B4023CE996300F841C9 /* TATitleLabel.swift in Sources */,
+				B75F1E9D23CEB4BE00F37089 /* Follower.swift in Sources */,
 				B7EDC9FE23CD7FED0075EC19 /* FollowerListVC.swift in Sources */,
 				B7EDC9E423CD465F0075EC19 /* SceneDelegate.swift in Sources */,
 				B7534B4423CEA38A00F841C9 /* TAAlertVC.swift in Sources */,
@@ -338,7 +350,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 66AJPZAPLQ;
-				INFOPLIST_FILE = GHFollowers/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/GHFollowers/Support/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -357,7 +369,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 66AJPZAPLQ;
-				INFOPLIST_FILE = GHFollowers/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/GHFollowers/Support/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
