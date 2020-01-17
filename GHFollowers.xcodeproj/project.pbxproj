@@ -15,6 +15,8 @@
 		B75F1E9F23CEB5A700F37089 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = B75F1E9E23CEB5A700F37089 /* User.swift */; };
 		B75F1EA223CEBA0600F37089 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B75F1EA123CEBA0600F37089 /* NetworkManager.swift */; };
 		B75F1EA523CEC36600F37089 /* ErrorMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B75F1EA423CEC36600F37089 /* ErrorMessage.swift */; };
+		B75F1EA723CECDAD00F37089 /* TAAlertVCDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B75F1EA623CECDAD00F37089 /* TAAlertVCDelegate.swift */; };
+		B75F1EAA23CECF4900F37089 /* FollowerList+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B75F1EA923CECF4900F37089 /* FollowerList+Extension.swift */; };
 		B7EDC9E223CD465F0075EC19 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EDC9E123CD465F0075EC19 /* AppDelegate.swift */; };
 		B7EDC9E423CD465F0075EC19 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EDC9E323CD465F0075EC19 /* SceneDelegate.swift */; };
 		B7EDC9EB23CD46620075EC19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7EDC9EA23CD46620075EC19 /* Assets.xcassets */; };
@@ -24,6 +26,8 @@
 		B7EDC9FA23CD5E0F0075EC19 /* TAButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EDC9F923CD5E0F0075EC19 /* TAButton.swift */; };
 		B7EDC9FC23CD619F0075EC19 /* TATextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EDC9FB23CD619F0075EC19 /* TATextField.swift */; };
 		B7EDC9FE23CD7FED0075EC19 /* FollowerListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EDC9FD23CD7FED0075EC19 /* FollowerListVC.swift */; };
+		B7FB39D923D1630E0053C8F7 /* FollowersCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FB39D823D1630E0053C8F7 /* FollowersCollectionViewCell.swift */; };
+		B7FB39DB23D163C50053C8F7 /* TAAvatarImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FB39DA23D163C50053C8F7 /* TAAvatarImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +39,8 @@
 		B75F1E9E23CEB5A700F37089 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		B75F1EA123CEBA0600F37089 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		B75F1EA423CEC36600F37089 /* ErrorMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorMessage.swift; sourceTree = "<group>"; };
+		B75F1EA623CECDAD00F37089 /* TAAlertVCDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TAAlertVCDelegate.swift; path = GHFollowers/Protocols/TAAlertVCDelegate.swift; sourceTree = SOURCE_ROOT; };
+		B75F1EA923CECF4900F37089 /* FollowerList+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FollowerList+Extension.swift"; sourceTree = "<group>"; };
 		B7EDC9DE23CD465F0075EC19 /* GHFollowers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GHFollowers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7EDC9E123CD465F0075EC19 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B7EDC9E323CD465F0075EC19 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -46,6 +52,8 @@
 		B7EDC9F923CD5E0F0075EC19 /* TAButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TAButton.swift; sourceTree = "<group>"; };
 		B7EDC9FB23CD619F0075EC19 /* TATextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TATextField.swift; sourceTree = "<group>"; };
 		B7EDC9FD23CD7FED0075EC19 /* FollowerListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerListVC.swift; sourceTree = "<group>"; };
+		B7FB39D823D1630E0053C8F7 /* FollowersCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowersCollectionViewCell.swift; sourceTree = "<group>"; };
+		B7FB39DA23D163C50053C8F7 /* TAAvatarImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TAAvatarImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +85,8 @@
 				B7534B3F23CE996300F841C9 /* TATitleLabel.swift */,
 				B7534B4123CEA08000F841C9 /* TABodyLabel.swift */,
 				B7534B4323CEA38A00F841C9 /* TAAlertVC.swift */,
+				B7FB39D823D1630E0053C8F7 /* FollowersCollectionViewCell.swift */,
+				B7FB39DA23D163C50053C8F7 /* TAAvatarImageView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -85,6 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				B7534B4523CEABB800F841C9 /* UIViewController+Extension.swift */,
+				B75F1EA923CECF4900F37089 /* FollowerList+Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -126,6 +137,14 @@
 			path = Utilities;
 			sourceTree = "<group>";
 		};
+		B75F1EA823CECF1C00F37089 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				B75F1EA623CECDAD00F37089 /* TAAlertVCDelegate.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
 		B7EDC9D523CD465F0075EC19 = {
 			isa = PBXGroup;
 			children = (
@@ -145,10 +164,11 @@
 		B7EDC9E023CD465F0075EC19 /* GHFollowers */ = {
 			isa = PBXGroup;
 			children = (
+				B75F1EA823CECF1C00F37089 /* Protocols */,
 				B75F1EA323CEC35300F37089 /* Utilities */,
+				B7534B4A23CEB12900F841C9 /* Extensions */,
 				B75F1EA023CEB9F500F37089 /* Manager */,
 				B75F1E9B23CEB4B200F37089 /* Model */,
-				B7534B4A23CEB12900F841C9 /* Extensions */,
 				B7534B4923CEB0F600F841C9 /* Views */,
 				B7534B4823CEB0B300F841C9 /* View Controllers */,
 				B7534B4B23CEB18500F841C9 /* Support */,
@@ -226,8 +246,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7FB39D923D1630E0053C8F7 /* FollowersCollectionViewCell.swift in Sources */,
 				B75F1E9F23CEB5A700F37089 /* User.swift in Sources */,
 				B7EDC9F823CD516E0075EC19 /* FavoritesListVC.swift in Sources */,
+				B75F1EA723CECDAD00F37089 /* TAAlertVCDelegate.swift in Sources */,
+				B7FB39DB23D163C50053C8F7 /* TAAvatarImageView.swift in Sources */,
 				B7534B4623CEABB800F841C9 /* UIViewController+Extension.swift in Sources */,
 				B7EDC9F623CD512B0075EC19 /* SearchVC.swift in Sources */,
 				B7EDC9FC23CD619F0075EC19 /* TATextField.swift in Sources */,
@@ -240,6 +263,7 @@
 				B75F1EA223CEBA0600F37089 /* NetworkManager.swift in Sources */,
 				B7EDC9E423CD465F0075EC19 /* SceneDelegate.swift in Sources */,
 				B7534B4423CEA38A00F841C9 /* TAAlertVC.swift in Sources */,
+				B75F1EAA23CECF4900F37089 /* FollowerList+Extension.swift in Sources */,
 				B7EDC9FA23CD5E0F0075EC19 /* TAButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

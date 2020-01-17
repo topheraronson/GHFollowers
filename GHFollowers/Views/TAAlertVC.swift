@@ -18,15 +18,19 @@ class TAAlertVC: UIViewController {
     var alertTitle: String?
     var message: String?
     var buttonTitle: String?
+    var willPop: Bool?
+    
+    weak var delegate: TAAlertVCDelegate?
     
     let padding: CGFloat = 20
     
-    init(title: String, message: String, buttonTitle: String) {
+    init(title: String, message: String, buttonTitle: String, delegate: TAAlertVCDelegate?) {
         super.init(nibName: nil, bundle: nil)
         
         self.alertTitle = title
         self.message = message
         self.buttonTitle = buttonTitle
+        self.delegate = delegate
     }
     
     required init?(coder: NSCoder) {
@@ -105,6 +109,11 @@ class TAAlertVC: UIViewController {
     }
     
     @objc private func dismissVC() {
-        dismiss(animated: true)
+        
+        dismiss(animated: true) {
+            self.delegate?.dismissCurrentVC()
+        }
     }
 }
+
+

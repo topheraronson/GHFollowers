@@ -84,7 +84,7 @@ class SearchVC: UIViewController {
      
         guard isUsernameEntered else {
             
-            presentTAAlertOnMainThread(title: "Empty Username", message: "Please Enter a username so we can search for it.", buttonTitle: "Ok")
+            presentTAAlertOnMainThread(title: "Empty Username", message: "Please Enter a username so we can search for it.", buttonTitle: "Ok", delegate: nil)
             return
         }
         

@@ -10,11 +10,11 @@ import UIKit
 
 extension UIViewController {
     
-    func presentTAAlertOnMainThread(title: String, message: String, buttonTitle: String) {
+    func presentTAAlertOnMainThread(title: String, message: String, buttonTitle: String, delegate: TAAlertVCDelegate?) {
         
         DispatchQueue.main.async {
             
-            let alertVC = TAAlertVC(title: title, message: message, buttonTitle: buttonTitle)
+            let alertVC = TAAlertVC(title: title, message: message, buttonTitle: buttonTitle, delegate: delegate)
             alertVC.modalPresentationStyle = .overFullScreen
             alertVC.modalTransitionStyle = .crossDissolve
             self.present(alertVC, animated: true)
